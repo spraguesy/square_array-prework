@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
   new_array = []
-  new_array = array.each do |num|
-    num ** 2
+  array.each do |num|
+    new_array.push(num)  
   end
   
 end
